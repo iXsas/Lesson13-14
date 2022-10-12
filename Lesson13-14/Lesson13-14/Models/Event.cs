@@ -13,17 +13,17 @@ namespace Lesson13_14.Models
         public string WhoPassed { get; set; }
         public string WherePassed { get; set; }
         public DateTime WhenPassed { get; set; }
-        public DateTime WhenBreak { get; set; }
+    //   public Time WorkTime { get; set; }
         public Event(int eventId, bool isPassed, 
             string whoPassed, string wherePassed, 
-            DateTime whenPassed, DateTime whenBreak)
+            DateTime whenPassed)
         {
             EventId = eventId;
             IsPassed = isPassed;
             WhoPassed = whoPassed;
             WherePassed = wherePassed;
             WhenPassed = whenPassed;
-            WhenBreak = whenBreak;
+       //     WorkTime = new Time(8, 0, 0); 
         }
     }
 }

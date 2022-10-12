@@ -7,7 +7,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace Lesson13_14.Repository
-{
+{//si programa atlieka praejimovaldiklio funkcijas
     internal class EventRepository
     {
         public List<Event> EventSarasas = new List<Event>();

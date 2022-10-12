@@ -12,14 +12,15 @@ namespace Lesson13_14.Models
         public string Name { get; set; }
         public string Role { get; set; }
         public int EventNo { get; set; }
-
-        public Person(int personId, string name, 
+        public bool Used { get; set; }=false;
+            public Person(int personId, string name, 
             string role)
         {
             PersonId = personId;
             Name = name;
             Role = role;
             EventNo = 0;
+            
         }
     }
 }
